@@ -54,7 +54,10 @@ const audios = [
     {caminho: 'audios/to-passada-chocada-meu-deus-jesus.mp3', legenda: 'to passado'},
     {caminho: 'audios/vaca-mugindo.mp3', legenda: 'vaca mudindo'},
     {caminho: 'audios/xaropinho-ratinho-rapaz.mp3', legenda: 'xaropinho ih rapaz'},
+    {caminho: 'audios/choque-da-uva.mp3', legenda: 'choque da uva'},
+    {caminho: 'audios/e-mentira-da-barata.mp3', legenda: 'é mentira da barata'},
 
+    
 ];
 
 function trocar() {
@@ -97,7 +100,7 @@ function girarLokao() {
 const botoes = document.querySelectorAll('.botao');
 const legendas = document.querySelectorAll('p');
 
-for (let i = 0; i < 53; i++) {
+for (let i = 0; i < 55; i++) {
     legendas[i].textContent = audios[i].legenda;
     botoes[i].setAttribute('data-item', i);
 }

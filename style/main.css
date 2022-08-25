@@ -20,7 +20,7 @@ body {
 }
 
 .faro {
-    width: 340px;
+    max-width: 340px;
     display: flex;
     margin: 30px auto 15px;
     cursor: pointer;
